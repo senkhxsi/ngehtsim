@@ -16,7 +16,7 @@ extra_files += package_files('./ngehtsim/files/eigenspectra')
 extra_files += package_files('./ngehtsim/files/eigenspectra_Tb')
 
 setup(name='ngehtsim',
-      version=f'1.2.1-numpy2',
+      version=f'{versioneer.get_version()}-numpy2',
       cmdclass=versioneer.get_cmdclass(),
       description='ngEHT simulation tools',
       author='Dom Pesce',
