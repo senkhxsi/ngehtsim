@@ -165,7 +165,7 @@ def opacity_spectrum(site, form='exact', month='Apr', day=15, year=2015, path_to
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
@@ -271,7 +271,7 @@ def brightness_temperature_spectrum(site, form='exact', month='Apr', day=15, yea
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
@@ -377,7 +377,7 @@ def pressure(site, form='exact', month='Apr', day=15, year=2015, path_to_weather
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
@@ -446,7 +446,7 @@ def temperature(site, form='exact', month='Apr', day=15, year=2015, path_to_weat
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
@@ -515,7 +515,7 @@ def PWV(site, form='exact', month='Apr', day=15, year=2015, path_to_weather=cons
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
@@ -584,7 +584,7 @@ def windspeed(site, form='exact', month='Apr', day=15, year=2015, path_to_weathe
         monthnam = month
     elif str(month).zfill(2) in monthnums:
         monthnum = str(month).zfill(2)
-        monthnam = monthnams[monthnums == month][0]
+        monthnam = monthnams[monthnums == monthnum][0]
     else:
         raise Exception('Specified month not recognized; please use either a three-letter abbreviation (e.g., Jan, Apr) or else a two-digit number (e.g., 03, 10).')
 
